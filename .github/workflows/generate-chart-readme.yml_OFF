@@ -3,9 +3,9 @@ name: Generate Chart Readme
 on:
   pull_request:
     branches:
-      - master
+      - masterrrr
     paths:
-      - 'bitnami/**/values.yaml'
+      - 'riftbit/**/values.yaml'
 
 jobs:
   generate-chart-readme:

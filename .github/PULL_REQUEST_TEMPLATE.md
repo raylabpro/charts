@@ -7,7 +7,7 @@
 
  Thank you for contributing! We will try to test and integrate the change as soon as we can, but be aware we have many GitHub repositories to manage and can't immediately respond to every request. There is no need to bump or check in on a pull request (it will clutter the discussion of the request).
 
- Also don't be worried if the request is closed or not integrated sometimes the priorities of Bitnami might not match the priorities of the pull request. Don't fret, the open source community thrives on forks and GitHub makes it easy to keep your changes in a forked repo.
+ Also don't be worried if the request is closed or not integrated sometimes the priorities of Riftbit might not match the priorities of the pull request. Don't fret, the open source community thrives on forks and GitHub makes it easy to keep your changes in a forked repo.
  -->
 
 **Description of the change**
@@ -36,4 +36,4 @@ request, mention that information here.-->
 <!-- [Place an '[X]' (no spaces) in all applicable fields. Please remove unrelated fields.] -->
 - [ ] Chart version bumped in `Chart.yaml` according to [semver](http://semver.org/).
 - [ ] Variables are documented in the README.md
-- [ ] Title of the PR starts with chart name (e.g. [bitnami/<name_of_the_chart>])
+- [ ] Title of the PR starts with chart name (e.g. [riftbit/<name_of_the_chart>])

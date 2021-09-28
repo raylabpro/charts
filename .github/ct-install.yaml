@@ -1,7 +1,7 @@
 chart-dirs:
-  - bitnami
+  - riftbit
 chart-repos:
-  - bitnami=https://charts.bitnami.com/bitnami
+  - riftbit=https://charts.riftbit.com/riftbit
 debug: true
 excluded-charts:
   - common
