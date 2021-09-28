@@ -27,7 +27,7 @@ jobs:
       - name: Run chart-testing (list-changed)
         id: list-changed
         run: |
-          changed=$(ct list-changed --config ct.yaml)
+          changed=$(ct list-changed --config .github/ct-lint.yaml)
           if [[ -n "$changed" ]]; then
             echo "::set-output name=changed::true"
           fi
@@ -53,7 +53,7 @@ jobs:
       - name: Run chart-testing (list-changed)
         id: list-changed
         run: |
-          changed=$(ct list-changed --config ct.yaml)
+          changed=$(ct list-changed --config .github/ct-lint)
           if [[ -n "$changed" ]]; then
             echo "::set-output name=changed::true"
           fi
@@ -65,18 +65,18 @@ jobs:
       - name: Run chart-testing (install)
         run: ct install --config .github/ct-install.yaml
 
-  checkov:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+  # checkov:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+  #       with:
+  #         fetch-depth: 0
 
-      - name: Run Checkov
-        uses: bridgecrewio/checkov-action@v12.904.0
-        with:
-          config_file: .github/checkov.yaml
+  #     - name: Run Checkov
+  #       uses: bridgecrewio/checkov-action@v12.904.0
+  #       with:
+  #         config_file: .github/checkov.yaml
 
   # check-categories:
   #   runs-on: ubuntu-latest
