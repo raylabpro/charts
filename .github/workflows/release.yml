@@ -48,7 +48,7 @@ jobs:
         uses: helm/chart-releaser-action@v1.2.1
         with:
           charts_dir: riftbit
-          charts_repo_url: https://riftbit.github.io/charts/
+          # charts_repo_url: https://riftbit.github.io/charts/
           config: .github/cr.yaml
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
