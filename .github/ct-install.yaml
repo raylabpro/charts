@@ -1,8 +1,14 @@
+# See https://github.com/helm/chart-testing#configuration
+debug: true
+# remote: upstream
+remote: origin
+target-branch: main
 chart-dirs:
   - riftbit
 chart-repos:
   - riftbit=https://charts.riftbit.com/riftbit
-debug: true
+helm-extra-args: --timeout 600s
+
 excluded-charts:
   - common
   - kubeapps
@@ -15,4 +21,3 @@ excluded-charts:
   - harbor
   - dataplatform-bp1
   - dataplatform-bp2
-remote: origin

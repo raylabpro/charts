@@ -1,10 +1,15 @@
+# See https://github.com/helm/chart-testing#configuration
+debug: true
+# remote: upstream
+remote: origin
+target-branch: main
 chart-dirs:
   - riftbit
 chart-repos:
   - riftbit=https://charts.riftbit.com/riftbit
+helm-extra-args: --timeout 600s
+
 check-version-increment: true
-debug: true
-remote: origin
 validate-chart-schema: true
 validate-maintainers: true
 validate-yaml: true
