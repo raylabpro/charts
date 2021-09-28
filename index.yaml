@@ -1,0 +1,119 @@
+apiVersion: v1
+entries:
+  kroki:
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2021-09-28T21:57:09.769106394Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Creates diagrams from textual descriptions
+    digest: 23e7ceec7d923863684da8d654a45f208b34c09fc71edc8945e539685bc5b3c2
+    home: https://kroki.io/
+    icon: https://raw.githubusercontent.com/yuzutech/kroki.io/master/assets/favicon-196x196.png
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: kroki
+    sources:
+    - https://github.com/yuzutech/kroki
+    urls:
+    - https://github.com/riftbit/charts/releases/download/kroki-1.1.0/kroki-1.1.0.tgz
+    version: 1.1.0
+  kubebox:
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2021-09-28T21:57:09.961458187Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Terminal and Web console for Kubernetes
+    digest: 1e001a4d264a129a8180dd35d19c8bd549379bbb43f5cc0e707f1b2cc48dd698
+    home: https://github.com/astefanutti/kubebox
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: kubebox
+    urls:
+    - https://github.com/riftbit/charts/releases/download/kubebox-2.7.0/kubebox-2.7.0.tgz
+    version: 2.7.0
+  kubeview:
+  - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2021-09-28T21:57:10.20332432Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Kubernetes cluster visualiser and graphical explorer
+    digest: 7ef89b99d425ee4a49c1f8925086c489886199c691686b2e58e12fcae77da343
+    home: https://github.com/benc-uk/kubeview
+    icon: https://raw.githubusercontent.com/benc-uk/kubeview/master/web/client/public/favicon.png
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: kubeview
+    urls:
+    - https://github.com/riftbit/charts/releases/download/kubeview-2.6.0/kubeview-2.6.0.tgz
+    version: 2.6.0
+  quickchart:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2021-09-28T21:57:10.409721339Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Chart image and QR code web API
+    digest: a24a5ed5ab7c1894f69da3e6a68d09e8b7d4a63c48b35d4c822761576b1b194e
+    home: https://quickchart.io/
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: quickchart
+    sources:
+    - https://github.com/typpo/quickchart
+    urls:
+    - https://github.com/riftbit/charts/releases/download/quickchart-1.1.0/quickchart-1.1.0.tgz
+    version: 1.1.0
+  vertical-pod-autoscaler:
+  - apiVersion: v2
+    appVersion: 0.9.2
+    created: "2021-09-28T21:57:10.619159943Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Set of components that automatically adjust the amount of CPU and
+      memory requested by pods running in the Kubernetes Cluster
+    digest: fdee37d4a4871567e1e318e126becae3559bdd1d6ff45e04d5c08b1d3075435a
+    home: https://github.com/kubernetes/autoscaler
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: vertical-pod-autoscaler
+    urls:
+    - https://github.com/riftbit/charts/releases/download/vertical-pod-autoscaler-3.6.0/vertical-pod-autoscaler-3.6.0.tgz
+    version: 3.6.0
+  whoami:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2021-09-28T21:57:10.815154416Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami/
+      version: 1.7.1
+    description: Tiny Go webserver that prints os information and HTTP request to
+      output
+    digest: dbd9456ed7c8a72f6570696367c540325f18f42fa8986856ba0c9293088f5800
+    home: https://github.com/containous/whoami
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: whoami
+    urls:
+    - https://github.com/riftbit/charts/releases/download/whoami-2.6.0/whoami-2.6.0.tgz
+    version: 2.6.0
+generated: "2021-09-28T21:57:10.815161816Z"
