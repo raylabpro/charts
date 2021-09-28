@@ -5,8 +5,8 @@ remote: origin
 target-branch: main
 chart-dirs:
   - riftbit
-# chart-repos:
-#   - riftbit=https://charts.riftbit.com/riftbit
+chart-repos:
+  - bitnami=https://charts.bitnami.com/bitnami/
 helm-extra-args: --timeout 600s
 
 excluded-charts:
