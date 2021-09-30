@@ -9,7 +9,7 @@ name: vertical-pod-autoscaler
 version: 3.6.0
 dependencies:
   - name: common
-    repository: https://charts.riftbit.com/
-    # tags:
-    #   - riftbit-common
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-common
     version: 1.x.x

@@ -14,11 +14,7 @@ keywords:
   - dag
 dependencies:
   - name: common
-    repository: https://charts.riftbit.com/
-    # tags:
-    #   - riftbit-common
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-common
     version: 1.x.x
-  # - condition: redis.enabled
-  #   name: redis
-  #   repository: https://charts.bitnami.com/bitnami
-  #   version: 15.x.x
