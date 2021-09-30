@@ -37,8 +37,8 @@ jobs:
         if: steps.list-changed.outputs.changed == 'true'
 
   test:
-    # needs:
-    #   - lint
+    needs:
+      - lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

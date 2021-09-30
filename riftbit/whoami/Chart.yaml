@@ -6,8 +6,13 @@ maintainers:
   - name: sebastien-prudhomme
     email: sebastien.prudhomme@gmail.com
 name: whoami
-version: 2.6.0
+version: 2.6.2
+keywords:
+  - golang
+  - whoami
 dependencies:
   - name: common
-    version: 1.7.1
-    repository: https://charts.bitnami.com/bitnami/
+    repository: https://charts.bitnami.com/bitnami
+    # tags:
+    #   - bitnami-common
+    version: 1.x.x

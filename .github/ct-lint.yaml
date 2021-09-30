@@ -7,6 +7,7 @@ chart-dirs:
   - riftbit
 chart-repos:
   - bitnami=https://charts.bitnami.com/bitnami/
+  - riftbit=https://charts.riftbit.com/
 helm-extra-args: --timeout 600s
 
 check-version-increment: true
