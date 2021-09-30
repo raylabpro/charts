@@ -10,5 +10,7 @@ name: kubeview
 version: 2.6.0
 dependencies:
   - name: common
-    version: 1.7.1
-    repository: https://charts.bitnami.com/bitnami/
+    repository: https://charts.riftbit.com/
+    # tags:
+    #   - riftbit-common
+    version: 1.x.x

@@ -7,7 +7,18 @@ maintainers:
     email: sebastien.prudhomme@gmail.com
 name: whoami
 version: 2.6.0
+keywords:
+  - apache
+  - airflow
+  - workflow
+  - dag
 dependencies:
   - name: common
-    version: 1.7.1
-    repository: https://charts.bitnami.com/bitnami/
+    repository: https://charts.riftbit.com/
+    # tags:
+    #   - riftbit-common
+    version: 1.x.x
+  # - condition: redis.enabled
+  #   name: redis
+  #   repository: https://charts.bitnami.com/bitnami
+  #   version: 15.x.x
