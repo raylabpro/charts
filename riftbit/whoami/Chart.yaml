@@ -8,13 +8,11 @@ maintainers:
 name: whoami
 version: 2.6.1
 keywords:
-  - apache
-  - airflow
-  - workflow
-  - dag
+  - golang
+  - whoami
 dependencies:
   - name: common
     repository: https://charts.bitnami.com/bitnami
-    tags:
-      - bitnami-common
+    # tags:
+    #   - bitnami-common
     version: 1.x.x

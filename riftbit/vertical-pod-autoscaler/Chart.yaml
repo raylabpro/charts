@@ -10,6 +10,6 @@ version: 3.6.1
 dependencies:
   - name: common
     repository: https://charts.bitnami.com/bitnami
-    tags:
-      - bitnami-common
+    # tags:
+    #   - bitnami-common
     version: 1.x.x
