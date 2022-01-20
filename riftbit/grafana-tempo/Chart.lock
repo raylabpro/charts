@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://charts.bitnami.com/bitnami
-  version: 1.9.1
-- name: memcached
-  repository: https://charts.bitnami.com/bitnami
-  version: 5.15.3
-digest: sha256:6d1da49792eb33e974e26a54febfc65da91e1ef6cbcf203964a9c874c5e2f15f
-generated: "2021-09-30T12:04:43.1205117+03:00"
