@@ -4,9 +4,9 @@ version: 0.1.0
 description: RedisInsight - The GUI for Redis
 home: https://redis.com/redis-enterprise/redis-insight/
 icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
-# maintainers:
-#   - name: sebastien-prudhomme
-#     email: sebastien.prudhomme@gmail.com
+maintainers:
+  - name: riftbit-ergoz
+    email: ergozru@gmail.com
 name: redisinsight
 type: application
 keywords:
