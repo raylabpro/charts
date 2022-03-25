@@ -1,15 +1,15 @@
 apiVersion: v2
-name: loki-stack
-version: 2.5.1
+name: redisinsight
+version: 0.1.0
 kubeVersion: "^1.10.0-0"
-description: "Loki: like Prometheus, but for logs."
+description: RedisInsight - The GUI for Redis
 type: application
 keywords:
   - redis
   - gui
-home: https://grafana.com/loki
-sources:
-  - https://github.com/grafana/loki
+home: https://redis.com/redis-enterprise/redis-insight/
+# sources:
+#   - https://github.com/grafana/loki
 # dependencies: # A list of the chart requirements (optional)
 #   - name: The name of the chart (nginx)
 #     version: The version of the chart ("1.2.3")
@@ -25,8 +25,7 @@ maintainers:
     email: ergozru@gmail.com
     url: https://riftbit.com
 icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
-appVersion: "v2.1.0"
+appVersion: "v1.0.0"
 # deprecated: Whether this chart is deprecated (optional, boolean)
 # annotations:
 #   example: A list of annotations keyed by name (optional).
-# engine: gotpl
