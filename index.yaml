@@ -858,6 +858,57 @@ entries:
     - https://github.com/riftbit/charts/releases/download/kubewatch-3.2.16/kubewatch-3.2.16.tgz
     version: 3.2.16
   loki-stack:
+  - apiVersion: v2
+    appVersion: v2.1.0
+    created: "2022-03-25T20:17:10.72453971Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: ^2.10.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: https://grafana.github.io/helm-charts
+      version: ^3.11.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: ~6.16.12
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: ~15.0.1
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://grafana.github.io/helm-charts
+      version: ^2.2.0
+    - condition: filebeat.enabled
+      name: filebeat
+      repository: https://helm.elastic.co
+      version: ~7.8.0
+    - condition: logstash.enabled
+      name: logstash
+      repository: https://helm.elastic.co
+      version: ~7.8.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: a2912484393517fa696fcd9d7c1af05f945bf5457ca95a96effdd78a94329dc8
+    home: https://grafana.com/loki
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    keywords:
+    - redis
+    - gui
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: ergozru@gmail.com
+      name: ergoz
+      url: https://riftbit.com
+    name: loki-stack
+    sources:
+    - https://github.com/grafana/loki
+    type: application
+    urls:
+    - https://github.com/riftbit/charts/releases/download/loki-stack-2.5.1/loki-stack-2.5.1.tgz
+    version: 2.5.1
   - apiVersion: v1
     appVersion: v2.1.0
     created: "2022-01-20T13:06:28.805509449Z"
@@ -1605,6 +1656,27 @@ entries:
     urls:
     - https://github.com/riftbit/charts/releases/download/redis-cluster-6.3.7/redis-cluster-6.3.7.tgz
     version: 6.3.7
+  redisinsight:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-03-25T20:17:10.860141008Z"
+    description: RedisInsight - The GUI for Redis
+    digest: 90d64d071bf786cbd5fa8667e0585d4256ce59eec97b13bf7984a42281ec708c
+    home: https://redis.com/redis-enterprise/redis-insight/
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    keywords:
+    - redis
+    - gui
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: ergozru@gmail.com
+      name: ergoz
+      url: https://riftbit.com
+    name: redisinsight
+    type: application
+    urls:
+    - https://github.com/riftbit/charts/releases/download/redisinsight-0.1.0/redisinsight-0.1.0.tgz
+    version: 0.1.0
   redmine:
   - annotations:
       category: ProjectManagement
@@ -1896,4 +1968,4 @@ entries:
     urls:
     - https://github.com/riftbit/charts/releases/download/zookeeper-7.4.5/zookeeper-7.4.5.tgz
     version: 7.4.5
-generated: "2022-01-20T13:06:28.805554549Z"
+generated: "2022-03-25T20:17:10.860181211Z"
