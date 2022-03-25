@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: RedisInsight - The GUI for Redis 
+home: https://redis.com/redis-enterprise/redis-insight/
+maintainers:
+  - name: sebastien-prudhomme
+    email: sebastien.prudhomme@gmail.com
+name: redisinsight
+type: application
+version: 0.1.0
+keywords:
+  - redis
+  - gui
+# dependencies:
+#   - name: common
+#     repository: https://charts.bitnami.com/bitnami
+#     # tags:
+#     #   - bitnami-common
+#     version: 1.x.x
